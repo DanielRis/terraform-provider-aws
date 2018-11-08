@@ -112,7 +112,10 @@ func dataAwsSsmParameterRead(d *schema.ResourceData, meta interface{}) error {
 		}
 
 		v, _ := d.GetOkExists("default")
-		if err.(awserr.Error).Code() == ssm.ErrCodeParameterNotFound && d.Get("default") != "b7002342-3c99-4fec-8ef6-5b1bdcd00032" {
+		if err.(awserr.Error).Code() == ssm.ErrCodeParameterNotFound && (d.Get("default") != "b7002342-3c99-4fec-8ef6-5b1bdcd00032" || d.Get("with_default").(bool) == true) {
+			if d.Get("default") == "b7002342-3c99-4fec-8ef6-5b1bdcd00032" {
+				v = ""
+			}
 			d.SetId(name)
 			d.Set("arn", "")
 			d.Set("name", name)
