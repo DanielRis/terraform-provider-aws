@@ -150,6 +150,12 @@ func resourceAwsS3BucketObject() *schema.Resource {
 				Type:     schema.TypeString,
 				Optional: true,
 			},
+			
+			"seed": {
+				Type:	  schema.TypeString,
+				Optional: true,
+				ForceNew: true,
+			},
 		},
 	}
 }
