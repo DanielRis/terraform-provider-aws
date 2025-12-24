@@ -12,8 +12,8 @@ require (
 	github.com/YakDriver/regexache v0.25.0
 	github.com/YakDriver/smarterr v0.8.0
 	github.com/aws/aws-sdk-go-v2 v1.41.0
-	github.com/aws/aws-sdk-go-v2/config v1.32.5
-	github.com/aws/aws-sdk-go-v2/credentials v1.19.5
+	github.com/aws/aws-sdk-go-v2/config v1.32.6
+	github.com/aws/aws-sdk-go-v2/credentials v1.19.6
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.18.16
 	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.20.16
 	github.com/aws/aws-sdk-go-v2/service/accessanalyzer v1.45.7
@@ -253,7 +253,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/ssmincidents v1.39.15
 	github.com/aws/aws-sdk-go-v2/service/ssmquicksetup v1.8.16
 	github.com/aws/aws-sdk-go-v2/service/ssmsap v1.25.15
-	github.com/aws/aws-sdk-go-v2/service/sso v1.30.7
+	github.com/aws/aws-sdk-go-v2/service/sso v1.30.8
 	github.com/aws/aws-sdk-go-v2/service/ssoadmin v1.36.12
 	github.com/aws/aws-sdk-go-v2/service/storagegateway v1.43.9
 	github.com/aws/aws-sdk-go-v2/service/sts v1.41.5
@@ -284,7 +284,7 @@ require (
 	github.com/goccy/go-yaml v1.19.0
 	github.com/google/go-cmp v0.7.0
 	github.com/hashicorp/aws-cloudformation-resource-schema-sdk-go v0.23.0
-	github.com/hashicorp/aws-sdk-go-base/v2 v2.0.0-beta.69
+	github.com/hashicorp/aws-sdk-go-base/v2 v2.0.0-beta.70
 	github.com/hashicorp/awspolicyequivalence v1.7.0
 	github.com/hashicorp/cli v1.1.7
 	github.com/hashicorp/go-cleanhttp v0.5.2
